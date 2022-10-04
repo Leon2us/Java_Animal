@@ -25,6 +25,11 @@ public class Dog {
         this.age = age;
     }
 
+    public Dog(String name, String color){
+        this.name = name;
+        this.color = color;
+    }
+
     public Dog(){
 
     }
@@ -71,5 +76,9 @@ public class Dog {
 
     public void sayHello(){
         System.out.println("Woof, woof!");
+    }
+
+    public String sayAboutUrself(String s){
+        return s;
     }
 }
